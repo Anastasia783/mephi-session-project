@@ -363,3 +363,18 @@ DNS
 nameserver 127.0.0.53
 options edns0 trust-ad
 search .
+ 
+DNS
+ 
+DNS
+         Protocols: LLMNR=resolve -mDNS -DNSOverTLS DNSSEC=no/unsupported
+    Current Scopes: DNS LLMNR/IPv4 LLMNR/IPv6
+         Protocols: +DefaultRoute LLMNR=resolve -mDNS -DNSOverTLS
+                    DNSSEC=no/unsupported
+Current DNS Server: 8.8.8.8
+       DNS Servers: 8.8.8.8
+ 
+Boxes
+wget2-libs-2.2.0-6.fc43.x86_64
+wget2-2.2.0-6.fc43.x86_64
+wget2-wget-2.2.0-6.fc43.x86_64
