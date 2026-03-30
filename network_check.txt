@@ -1,0 +1,10 @@
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=255 time=18.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=255 time=38.9 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=255 time=20.5 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=255 time=18.3 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3008ms
+rtt min/avg/max/mdev = 18.309/24.013/38.925/8.655 ms
+ping 192.168.1.1 -nedostupen iz VM NAT seti
